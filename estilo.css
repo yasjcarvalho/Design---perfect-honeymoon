@@ -1,0 +1,341 @@
+body {
+    background: linear-gradient(359.75deg, #8489FF 0.23%, #61C0F5 99.79%);
+    height: 900px;  
+    width: 1440px;
+}
+
+#logo {
+    color: #FFFFFF;
+    font-family: 'Quicksand';
+    font-size: 34.375px;
+    font-weight: 700;
+    height: 42.62px;
+    left: 135px;
+    line-height: 43px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    position: absolute;
+    top: 53px;
+    width: 176px;
+}
+
+#comercial {
+    color: #FFB9AF;
+}
+
+li {
+    color: #FFFFFF;
+    display: inline;
+    font-family: 'Montserrat';
+    font-size: 24.5267px;
+    font-weight: 500;
+    height: 29.43px;
+    line-height: 30px;
+    list-style-type: none;
+    position: absolute;
+}
+
+#home {
+    width: 76.52px;
+}
+
+#about {
+    left: 120.67px;
+    width: 77.5px;
+}
+
+#contact {
+    left: 241.34px;
+    width: 99.09px;
+}
+
+#blog {
+    left: 382.62px;
+    width: 58.86px;
+}
+
+#videos {
+    left: 485.63px;
+    width: 84.37px;
+}
+
+#menu {
+    height: 29.43px;
+    left: 435px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 60px;
+    width: 570px;
+}
+
+#telefone {
+    position: absolute;
+    width: 202px;
+    height: 23.05px;
+    left: 1102px;
+    top: 63px;
+}
+
+#tel-icone {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 0px;
+    top: 3px;
+}
+
+#tel-numero {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.2045px;
+    line-height: 23px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 169px;
+    height: 23.05px;
+    left: 33px;
+    top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#textos {
+    position: absolute;
+    width: 544.05px;
+    height: 329.94px;
+    left: 135px;
+    top: 238px;
+}
+
+#texto1 {
+    position: absolute;
+    width: 521.13px;
+    height: 191.04px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 78.4px;
+    line-height: 133%;
+    letter-spacing: 0.025em;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#texto2 {
+    position: absolute;
+    width: 543.05px;
+    height: 102.89px;
+    left: 1px;
+    top: 227.04px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.2852px;
+    line-height: 170%;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+#botao {
+    background: linear-gradient(93.7deg, #EED761 21.68%, #FFB9AF 79.85%);
+    border-radius: 88.1657px;
+    border-style: none;
+    box-shadow: 0px 3.52663px 35.2663px rgba(255, 185, 175, 0.5);
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    height: 56.43px;
+    left: 135px;
+    line-height: 26px;
+    position: absolute;
+    top: 601.72px;
+    width: 298px;
+}
+
+#cards {
+    height: 169px;
+    left: 135px;
+    position: absolute;
+    top: 801px;
+    width: 769px;
+}
+
+.card {
+    background: #FAFAFA;
+    border-radius: 7px;
+    height: 169px;
+    position: absolute;
+    width: 239px;
+}
+
+#card2 {
+    left: 265px;
+}
+
+#card3 {
+    left: 530px;
+}
+
+.foto {
+    border-radius: 2px;
+    height: 76px;
+    left: 20px;
+    position: absolute;
+    top: 52px;
+    width: 198px;
+}
+
+.frame {
+    /* Auto layout */
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+
+    position: absolute;
+    height: 20px;
+    left: 24px;
+    top: 20px;
+}
+
+#frame1 {
+    width: 151.43px;
+}
+
+#frame2 {
+    width: 153.43px;
+}
+
+#frame3 {
+    width: 126.43px;
+}
+
+.cidade {
+    width: 56px;
+    height: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.0714px;
+    line-height: 20px;
+
+    color: #122330;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#cidade1 {
+    width: 56px;
+}
+
+#cidade2 {
+    width: 58px;
+}
+
+#cidade3 {
+    width: 31px;
+}
+
+.seta {
+    width: 15.43px;
+    height: 15.43px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#social {
+    position: absolute;
+    width: 130px;
+    height: 22px;
+    left: 1175px;
+    top: 843px;
+}
+
+#facebook {
+    position: absolute;
+    width: 10.75px;
+    height: 21.29px;
+    left: 0px;
+    top: 0px;
+}
+
+#twitter {
+    position: absolute;
+    width: 21.29px;
+    height: 17.43px;
+    left: 48.75px;
+    top: 2.13px;
+}
+
+#linkedin {
+    position: absolute;
+    width: 21.29px;
+    height: 21.29px;
+    left: 108.04px;
+    /* top: 0px; */
+}
+
+#imagens {
+    position: absolute;
+    width: 794px;
+    height: 795px;
+    left: 646px;
+    top: 191px;
+}
+
+#palmeira {
+    position: absolute;
+    width: 765px;
+    height: 765px;
+    z-index: 3;
+}
+
+#nuvem2 {
+    position: absolute;
+    width: 468px;
+    height: 195px;
+    left: 17px;
+    top: 285px;
+    z-index: 2;
+}
+
+#nuvem1 {
+    position: absolute;
+    width: 468px;
+    height: 195px;
+    left: 326px;
+    top: 0px;
+    z-index: 2;
+}
+
+#elipse {
+    position: absolute;
+    width: 646px;
+    height: 646px;
+    left: 74px;
+    top: 28px;
+    z-index: 1;
+
+    background: #FFFFFF;
+    opacity: 0.8;
+    filter: blur(125px);
+}
